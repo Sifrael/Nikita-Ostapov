@@ -4,10 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title>   
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <img src="../img/skobki2.png" height="700" width="500"  alt="">
-    
+<body>    
+    <h1>WebP</h1>
+    <p >
+      <strong>  WebP </strong>– сравнительно новый формат изображений, созданный корпорацией Google. Данный формат способен обеспечить качественное сжатие изображений.
+        При аналогичном или лучшем качестве в сравнении с JPEG, фото WebP имеет размер на 31% процент меньше. 
+        История использования формата началась в 2010 году, с презентации. 
+        Сегодня крупные компании, включая Google, Facebook, eBay и ряд других советуют переходить на него.<br>         
+    </p>   
+    <div class="container">
+        <div class="con_one">
+            <h3>Преимущества WebP:</h3>
+            <ul type="circle">
+                <li>более оперативная загрузка страницы для конечного пользователя при прочих равных;</li>
+                <li>меньший размер изображения;</li>
+                <li>отсутствие потерь качества;</li>
+                <li>поддержка прозрачности (как в формате PNG);</li>
+                <li>маска альфа-канала;</li>
+                <li>переходы с одного цвета в другой более качественные, с минимальной «лесенкой».</li>
+            </ul>
+        </div>
+        <div class="con_two">
+            <h3>Из недостатков стоит отметить:</h3>
+            <ul type="circle">
+                <li>плохую поддержку современными браузерами;</li>
+                <li>искажённые элементы приобретают «пластиковый» вид;</li>
+                <li>экспорт имеет своеобразный интерфейс, поэтому не для всех удобен.</li>
+            </ul>
+        </div> 
+    </div>       
+    <div class="container_2">
+        <h2>Поддержка WebP браузерами:</h2>
+        <div class="container_2_1" >    
+            <div><h4>WebP с потерями поддерживают:</h4>
+                    <ul type="circle">         
+                        <li>Google Chrome (для ПК) 17+</li>
+                        <li>Google Chrome для Android версии 25+</li>
+                        <li>Microsoft Edge 18+</li>
+                        <li>Firefox 65+</li>
+                        <li>Opera 11.10+</li>
+                        <li>Собственный веб-браузер, Android 4.0+ (ICS)</li>
+                    </ul>
+            </div>
+            <div><h4>WebP с потерями, без потерь и альфа-поддержка:</h4>
+                    <ul type="circle">
+                        <li>Google Chrome (для ПК) 23+</li>
+                        <li>Google Chrome для Android версии 25+</li>
+                        <li>Microsoft Edge 18+</li>
+                        <li>Firefox 65+</li>
+                        <li>Opera 12.10+</li>
+                        <li>Собственный веб-браузер, Android 4.2+ (JB-MR1)</li>
+                        <li>Pale Moon 26+</li>
+                    </ul>
+            </div>
+            <div>
+                <h4>Поддержка WebP Animation:</h4>
+                    <ul type="circle">
+                        <li>Google Chrome (для ПК и Android) 32+</li>
+                        <li>Microsoft Edge 18+</li>
+                        <li>Firefox 65+</li>
+                        <li>Opera 19+</li>
+                </ul>
+            </div>
+        </div>    
+</div>
+<h2>Сравнение WebP и JPG</h2>
+<p>
+    Оба формата призваны уменьшить размер исходного файла и используют для этого сжатие.
+    Сжать - в лексиконе большинства графических форматов, означает потерять часть исходного, но при этом сохранить суть изображения.
+    После сжатия изображение не является оригиналом, а скорее похоже на него. <strong> JPG </strong> и<strong> WebP </strong> используют различные алгоритмы со своими плюсами и минусами.
+    Если говорить о сжатии, различают понятия «сжатие без потерь» и «сжатие с потерями», и <strong> WebP </strong>, в отличие от <strong> JPG </strong> еще умеет сжимать без потерь, при этом показывая лучшие результаты, даже чем png(формат изображений, реализующий только сжатие без потерь).
+</p>
+<p>
+    Все сравниваемые изображения в разных форматах примерно равны по размеру. <strong> JPG </strong> всегда слева, <strong> WebP </strong> справа. <br>
+    Первым идёт <a href="https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%80%D0%BA,_%D0%9C%D0%B8%D0%BA%D0%BA%D0%B8" target="_blank" >Микки Рурк</a>
+    с его фактурным лицом. Обратите внимание на детальность прорисовки пор кожи и правый зрачок.
+     При равном размере изображения, <strong> JPG </strong> выигрывает у <strong> WebP </strong>.
+</p>
+<div class="comparison">
+    <div class="photo">Формат <strong> JPG </strong> , размер изображеия <strong> 41.4kB </strong><img src="img/Mickey-Rourke-JcupRu.jpg" alt="" title="41.4kB"></div>
+    <div class="photo">Формат <strong> WebP </strong> размер изображеия <strong> 42.8kB </strong><img src="img/Mickey-Rourke-JcupRu.webp" alt="" title="42.8kB"></div>
+</div>
+
+<p>
+    На втором изображении мелкие детали на белом фоне в <strong> WebP </strong> страдают.
+    Тем не менее саму перчинку оба формата передают хорошо.
+     Однозначная победа <strong> JPG </strong> над <strong> WebP </strong>.    
+</p>
+<div class="comparison">    
+    <div class="photo">Формат <strong> JPG </strong> , размер изображеия <strong> 57.9kB </strong><img src="img/white-pepper-JcupRu.jpg" alt="" title="57.9kB"></div>
+    <div class="photo">Формат <strong> WebP </strong> размер изображеия <strong> 57.5kB </strong><img src="img/white-pepper-JcupRu.webp" alt="" title="57.5kB"></div>
+</div>
+<p>
+    Третье и четвёртое изображения преимущественно состоят из плавных градиентов.
+     Много одноцветных областей. <strong> WebP </strong> чувствует себя в таких условиях просто прекрасно.
+     Разница практически незаметна. <strong> WebP </strong> намного меньше <strong> JPG </strong> по размеру    
+</p>
+<div class="comparison">    
+    <div class="photo">Формат <strong> JPG </strong> , размер изображеия <strong> 175kB </strong><img src="img/yabloki-na-stole-v-jpg.jpg" alt="" title="175kB"></div>
+    <div class="photo">Формат <strong> WebP </strong> размер изображеия <strong> 134kB </strong><img src="img/yabloki-na-stole-v-webm.webp" alt="" title="134kB"></div>
+</div>
+<div class="comparison">    
+    <div class="photo">Формат <strong> JPG </strong> , размер изображеия <strong> 145kB </strong><img src="img/zakat-v-jpg.jpg" alt="" title="145kB"></div>
+    <div class="photo">Формат <strong> WebP </strong> размер изображеия <strong> 115kB </strong><img src="img/zakat-v-webm.webp" alt="" title="115kB"></div>
+</div>
+
+    <table border="1" >                
+        <tr>
+        <th>Плюсы и минусы <br> 
+                WEPB и JPG</th>
+         <th>JPG</th>
+         <th>WEBP</th>        
+         <tr><td>чёткие границы</td><td>вокруг границ появляются артефакты</td><td>небольшое размытие границ</td></tr>
+        <tr><td>градиенты</td><td>появляются острые грани</td><td>отлично</td></tr>
+        <tr><td>нечеткие детали</td><td>хорошо</td><td>теряют фактуру</td></tr>
+        <tr><td>общая чёткость</td><td>чётко</td><td>небольшая «мыльность» в высоком и низком диапазонах</td></tr>  
+        <tr><td>общая чёткость при сильном сжатии</td><td>чётко, появляются артефакты</td><td>изображенте «замылено» в деталях, границы чёткие</td></tr> 
+        <tr><td>прогрессивность</td><td>грузится от размытого к четкому</td><td>грузится сверху вниз</td></tr>
+        <tr><td>размер файла</td><td>выше</td><td>ниже на 30%</td></tr>
+        <tr><td>поддержка браузерами</td><td>абсолютная</td><td>>60%</td></tr>
+       </table>
+
 </html>
