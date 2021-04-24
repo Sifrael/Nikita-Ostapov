@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Pacifico&display=swap');
+body 
+{
+    font-family: 'Balsamiq Sans', cursive;  
+    font-size: 20px;  
+}
+.text {    
+    width: 650px;   
+    margin: 0 auto;    
+     
+}
+h1,h2 {
+    text-align: center;
+    line-height: 1;
+    font-family: 'Pacifico', cursive;    
+}
