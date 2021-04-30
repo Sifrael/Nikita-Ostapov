@@ -2,15 +2,22 @@ td, tr {
     font-size: 30px;
     vertical-align: top;        
 }
-a {
+
+a,li {
     text-decoration: none;
-    color:black
+    color:black;    
+    margin: 10px auto;
 }
-li {
-    margin: 10px auto;    
+
+li :hover {
+    color: blue;
+    transition: 0.2s;
+    border-bottom: blue solid 3px;
 }
-li:hover {
-    color:blue;
-    transition: 0.5;
-    
-}
+
+table {    
+    table-layout: fixed;    
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;    
+  }
