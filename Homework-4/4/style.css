@@ -1,0 +1,56 @@
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+.img__1 {
+    background-image:url(img/ramka_top.png);
+    background-repeat: repeat-x;
+    background-position: top; 
+
+}
+.img_2 {
+    background-image:url(img/ramka_left.png);
+    background-repeat: repeat-y;
+    background-position: left;
+}
+
+.img_3 {
+    background-image:url(img/ramka_right.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.img_4 {
+    background-image:url(img/ramka_bottom.png);
+    background-repeat: repeat-x;
+    background-position: bottom center;
+}
+
+.img_5 {
+    background-image:url(img/ramka_left_top.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.img_6 {
+    background-image:url(img/ramka_right_top.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.img_7 {
+    background-image:url(img/ramka_left_bottom.png);    
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.img_8 {
+    background-image:url(img/ramka_right_bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.text {
+    padding: 100px;
+}

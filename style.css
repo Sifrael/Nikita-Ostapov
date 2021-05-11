@@ -1,9 +1,10 @@
 td, tr {
     font-size: 30px;
-    vertical-align: top;        
+    vertical-align: top;  
+    border: 1px solid;      
 }
 
-a,li {
+a,li { 
     text-decoration: none;
     color:black;    
     margin: 10px auto;
@@ -19,5 +20,11 @@ table {
     table-layout: fixed;    
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid black;    
+    border: 1px solid black;   
+    
   }
+
+.verified {
+    background-color: #00FF66;
+}
+

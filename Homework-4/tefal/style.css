@@ -1,0 +1,11 @@
+.tef {
+    width: 800px;
+    height: 800px;
+    background-image:
+     url(1.png),
+     url(2.png),
+     url(3.png);
+    background-position: bottom,center 275px,bottom ;
+    background-size: contain;
+    background-repeat: no-repeat ;
+}

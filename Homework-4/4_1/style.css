@@ -1,0 +1,22 @@
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+
+.img_1 {    
+    background: 
+      url(img/ramka_left_top.png),       
+      url(img/ramka_right_top.png), 
+      url(img/ramka_left_bottom.png),
+      url(img/ramka_right_bottom.png),
+      url(img/ramka_top.png),    
+      url(img/ramka_left.png),
+      url(img/ramka_right.png),
+      url(img/ramka_bottom.png);
+      background-position: top left, top right,bottom left,bottom right,top center,left,right,bottom center;
+      background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,repeat-x,repeat-y,repeat-y,repeat-x;
+      padding: 100px;
+}
+
+

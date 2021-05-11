@@ -1,0 +1,26 @@
+.container {    
+    width: 844px;
+    max-width: 100%;    
+    height: 100%;
+    margin: 0 auto; 
+}
+
+.coords {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coords__cont {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.coords__cont img {
+    margin-top: 20px;
+}
+
+.h2_text {    
+    text-align: center;
+}
