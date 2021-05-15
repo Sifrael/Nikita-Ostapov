@@ -6,6 +6,7 @@ a{
         text-decoration: underline;
         transition: 0.3s;
     }
+    
 }
 table {
     border-spacing: 15px 5px;
@@ -60,7 +61,7 @@ table {
         }
     }
 
-    &__number-link {        
+    &__number-links {        
         padding: 15px 5px 15px 5px;        
         display: none;
         a {
@@ -70,9 +71,12 @@ table {
         a:hover {
             color:blue;
             transition: 0.3s;
-        }
-
+        }                
     }
+    &__number-link:visited {
+        color: brown;
+    }
+    
 }
 
 .number {

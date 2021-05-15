@@ -75,19 +75,23 @@ table td {
   background-color: red;
 }
 
-.Homework__number-link {
+.Homework__number-links {
   padding: 15px 5px 15px 5px;
   display: none;
 }
 
-.Homework__number-link a {
+.Homework__number-links a {
   display: block;
 }
 
-.Homework__number-link a:hover {
+.Homework__number-links a:hover {
   color: blue;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.Homework__number-link:visited {
+  color: brown;
 }
 
 .number__1 {
