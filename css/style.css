@@ -90,10 +90,6 @@ table td {
   transition: 0.3s;
 }
 
-.Homework__number-link:visited {
-  color: brown;
-}
-
 .number__1 {
   background-color: green;
 }
