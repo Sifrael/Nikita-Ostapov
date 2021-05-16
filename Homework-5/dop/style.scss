@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title { 
+    width: 100%;     
+    text-align: center;
+    color:#0000ff;
+    background-color: #aed9e7;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 20px;    
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+
+    &__left { 
+        background:
+        url(../img/ball3.png) no-repeat top left,
+        url(../img/ball3.png) no-repeat top right,
+        url(../img/ball3.png) no-repeat bottom left,
+        url(../img/ball3.png) no-repeat bottom right;       
+        
+        a {
+            color:blue
+        }        
+        ul {
+            margin: 0;
+            padding: 0 30px;
+        }
+        flex:0 0 20%;
+        background-color: #f0e78d;
+    }
+
+    &__link {
+    }
+
+    &__center {   
+        background:
+        url(../img/ball3.png) no-repeat top left,
+        url(../img/ball3.png) no-repeat top right,
+        url(../img/ball3.png) no-repeat bottom left,
+        url(../img/ball3.png) no-repeat bottom right;      
+        background-color: #0000ff;        
+        background-size: 100px;         
+        padding: 0 20px;
+        
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+        img {
+            margin: 0 15px 15px 0;
+            float: left;
+        }
+    }
+    &__right {
+        background:
+        url(../img/ball3.png) no-repeat top left,
+        url(../img/ball3.png) no-repeat top right,
+        url(../img/ball3.png) no-repeat bottom left,
+        url(../img/ball3.png) no-repeat bottom right;
+        
+        a {
+            color:blue
+        }        
+        ul {
+            margin: 0;
+            padding: 0 30px;
+        }
+        flex:0 0 200px;
+        background-color: brown;
+    }
+}

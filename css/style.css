@@ -1,13 +1,11 @@
 a {
   text-decoration: none;
   color: #000;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 a:hover {
   text-decoration: underline;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -43,9 +41,7 @@ table td {
   position: absolute;
   top: 50%;
   left: 110%;
-  -webkit-transform: rotate(-22.5deg);
-          transform: rotate(-22.5deg);
-  -webkit-transition: 0.3s;
+  transform: rotate(-22.5deg);
   transition: 0.3s;
 }
 
@@ -53,24 +49,18 @@ table td {
   position: absolute;
   top: 50%;
   left: 120%;
-  -webkit-transform: rotate(22.5deg);
-          transform: rotate(22.5deg);
-  -webkit-transition: 0.3s;
+  transform: rotate(22.5deg);
   transition: 0.3s;
 }
 
 .Homework__number.activ::before {
-  -webkit-transform: rotate(22.5deg);
-          transform: rotate(22.5deg);
-  -webkit-transition: 0.3s;
+  transform: rotate(22.5deg);
   transition: 0.3s;
   background-color: red;
 }
 
 .Homework__number.activ:after {
-  -webkit-transform: rotate(-22.5deg);
-          transform: rotate(-22.5deg);
-  -webkit-transition: 0.3s;
+  transform: rotate(-22.5deg);
   transition: 0.3s;
   background-color: red;
 }
@@ -86,7 +76,6 @@ table td {
 
 .Homework__number-links a:hover {
   color: blue;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -99,5 +88,9 @@ table td {
 }
 
 .number__3 {
+  background-color: green;
+}
+
+.number__4 {
   background-color: green;
 }
