@@ -40,8 +40,8 @@ table td {
   width: 20px;
 }
 
-.green {
-  background: green;
-  height: 20px;
-  width: 20px;
+.one.green {
+  td-background: green;
+  td-height: 20px;
+  td-width: 20px;
 }
