@@ -1,0 +1,47 @@
+table {
+  border-spacing: 1px;
+  border-color: gray;
+}
+
+table td {
+  height: 50px;
+  width: 50px;
+}
+
+.one td:nth-child(even) {
+  background: #000;
+}
+
+.one td:first-child {
+  background: green;
+  height: 20px;
+  width: 20px;
+}
+
+.one td:last-child {
+  background: green;
+  height: 20px;
+  width: 20px;
+}
+
+.too td:nth-child(odd) {
+  background: #000;
+}
+
+.too td:first-child {
+  background: green;
+  height: 20px;
+  width: 20px;
+}
+
+.too td:last-child {
+  background: green;
+  height: 20px;
+  width: 20px;
+}
+
+.green {
+  background: green;
+  height: 20px;
+  width: 20px;
+}
