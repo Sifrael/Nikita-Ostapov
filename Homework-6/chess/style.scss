@@ -1,47 +1,49 @@
-table {
-    border-spacing: 1px;
-    border-color: gray;
-    td {
-        height: 50px;
-        width: 50px;
-    }    
+.green {
+    background: #91ef91;
+    max-width: 40px;
+    height: 15px;
+    
 }
+
 .one {
     td:nth-child(even) {
-        background: #000
-       }
+        background: #000;
+        width: 40px;
+        height: 40px;
+    }
     td:first-child {
-        background:green;
-        height: 20px;
-        width: 20px;
-    } 
+        background: #91ef91;
+        width: 15px;
+        height: 40px; 
+    }
     td:last-child {
-        background:green;
-        height: 20px;
-        width: 20px;
-    }   
+        background: #91ef91;
+        width: 15px;
+        height: 40px; 
+    }
 }
-.too {
+.two{
     td:nth-child(odd) {
         background: #000;
-   }
-   td:first-child {
-        background:green;
-        height: 20px;
-        width: 20px;
-    }    
+        width: 40px;
+        height: 40px;
+    }
+    td:first-child {
+        background: #91ef91;
+        width: 15px;
+        height: 40px; 
+    }
     td:last-child {
-        background:green;
-        height: 20px;
-        width: 20px;
-    }   
-}
-.one.green {
-    td:{
-        background:green;
-        height: 20px;
-        width: 20px;
+        background: #91ef91;
+        width: 15px;
+        height: 40px; 
     }
     
 }
-   
+
+table {
+    border-collapse: collapse;
+    td {
+        border:1px solid gray;  
+    }
+}
