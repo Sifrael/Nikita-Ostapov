@@ -1,0 +1,41 @@
+.first {
+  margin: 0 10px;
+}
+
+.first a:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.first a:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+  width: 2px;
+  height: 20px;
+  background-color: red;
+}
+
+.first a:last-child:after {
+  display: none;
+}
+
+.second {
+  margin-top: 10px;
+}
+
+.second a {
+  margin: 0 0 0 10px;
+  padding: 1px 10px 1px 0;
+  border-right: 2px solid red;
+}
+
+.second a:last-child {
+  border: none;
+}
+
+.second a:hover {
+  color: red;
+  transition: 0.3s;
+}

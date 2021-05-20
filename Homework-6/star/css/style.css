@@ -1,0 +1,30 @@
+.star {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.star__1 {
+  background: url(../img/star1.png) no-repeat;
+}
+
+.star__2 {
+  background: url(../img/star1.png) no-repeat;
+}
+
+.star__3 {
+  background: url(../img/star1.png) no-repeat;
+}
+
+.star__4 {
+  background: url(../img/star1.png) no-repeat;
+}
+
+.star__5 {
+  background: url(../img/star1.png) no-repeat;
+}
+
+.star_h img:hover, .star_h:hover ~ .star_h img {
+  opacity: 0;
+  transition: 0.3s;
+}
