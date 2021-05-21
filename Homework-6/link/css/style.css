@@ -96,10 +96,6 @@ div {
   margin-left: 10px;
 }
 
-.fourth table tr td:last-child span {
-  display: none;
-}
-
 .fifth {
   display: table;
 }
