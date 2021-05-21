@@ -24,7 +24,10 @@
   background: url(../img/star1.png) no-repeat;
 }
 
-.star_h img:hover, .star_h:hover ~ .star_h img {
-  opacity: 0;
+.star_h img {
   transition: 0.3s;
+}
+
+.star_h img:hover, .star_h:hover ~ .star_h img {
+  opacity: 0;  
 }
