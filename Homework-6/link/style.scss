@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     transition: 0.3s;
     &:hover {
@@ -27,8 +32,6 @@ div {
 
 .second {
 
-    transition: 0.3s;
-    
     ul{
         margin: 0;
         padding: 0;
@@ -47,81 +50,51 @@ div {
     
 }
 .third {
-    ul{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        li {
-            margin: 0 0 0 4px;
-            padding:1px 12px 1px 10px;
-            background: url(../img/line.png) no-repeat right;
-            list-style: none;
-        }
-        li:last-child {
-            background: none;
-        }
-        li:first-child {
-            margin: 0 0 0 0;
-        }
+    display:flex;
+    div {
+        margin:  0 0 0 7px;
+        padding: 1px 9px 1px 10px;
+        background: url(../img/line.png) no-repeat right;
     }
-}
-
-.fourth {
-
-    ul{
-        margin: 0;
-        padding: 0;        
-        li {
-            margin: 0 -4px 0 5px;
-            padding: 2px 7px 1px 12px;
-            display: inline;            
-            list-style: none;
-            border-left: 2px solid red;
-        }
-        li:first-child {
-            border: none;
-        }
-        li:first-child {
-            margin: 0 0 0 0;
-            padding: 2px 2px 1px 10px;
-        }
+    div:last-child {
+        background: none;
     }
-
-}
-
-.fifth {
-
-    ul{
-        margin: 0;
-        padding: 0;
-        
-        li {
-            margin: 0 0 0 5px;
-            padding: 1px 0 1px 4px;            
-            float:left;
-            list-style: none;
-        }
-        li:first-child {
-            margin: 0 0 0 0;
-            padding: 1px 0 1px 10px;
-        }
-        
+    div:first-child {
+        margin:  0 0 0 0px;
+        padding: 1px 11px 1px 10px;
     }
     
-    a:before {
-        content: '';
+}
+ 
+.fourth {
+
+    table,tr,td{
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
         display: inline-block;
-        vertical-align: middle;
-        margin: 0 10px 0 4px;
+        margin: 0 0 0 0px;
+    }
+    td {
+        padding: 0px 0 0 10px;
+    }
+    td:first-child {
+        padding: 0px 0 0 8px;
+    }
+    
+    span {
+        display: inline-block;
         width: 2px;
         height: 20px;
         background-color: red;
+        vertical-align: middle;
+        margin-left: 10px;
     }
-    
+    table tr td:last-child span {
+        display: none;
+    }
+
 }
 
-.fifth ul > li:first-child {
-    a:before {
-    display: none;
-    }
-}
