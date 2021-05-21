@@ -98,3 +98,28 @@ div {
 
 }
 
+.fifth {
+    display: table;
+    
+    span {
+        display: table-cell;
+    }
+    a {
+        display: block;
+        margin: 0 0 0 10px;
+        
+    }
+    a:first-child {
+       
+    }
+    hr {
+        display: inline-block;
+        width:2px;
+        height: 20px;
+        background-color:red;
+        margin: 0 0 0 12px;
+        border:none;
+        vertical-align: middle;
+    }
+}
+

@@ -99,3 +99,26 @@ div {
 .fourth table tr td:last-child span {
   display: none;
 }
+
+.fifth {
+  display: table;
+}
+
+.fifth span {
+  display: table-cell;
+}
+
+.fifth a {
+  display: block;
+  margin: 0 0 0 10px;
+}
+
+.fifth hr {
+  display: inline-block;
+  width: 2px;
+  height: 20px;
+  background-color: red;
+  margin: 0 0 0 12px;
+  border: none;
+  vertical-align: middle;
+}
