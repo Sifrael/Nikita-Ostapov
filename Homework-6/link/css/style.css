@@ -1,10 +1,17 @@
-.first {
-  margin: 0 10px;
+a {
+  transition: 0.3s;
 }
 
-.first a:hover {
+a:hover {
   color: red;
-  transition: 0.3s;
+}
+
+div {
+  margin: 0 0 20px 0;
+}
+
+.first {
+  margin-left: 10px;
 }
 
 .first a:after {
@@ -22,20 +29,82 @@
 }
 
 .second {
-  margin-top: 10px;
+  transition: 0.3s;
 }
 
-.second a {
+.second ul {
+  margin: 0;
+  padding: 0;
+}
+
+.second ul li {
+  list-style: none;
+  display: inline-block;
   margin: 0 0 0 10px;
   padding: 1px 10px 1px 0;
   border-right: 2px solid red;
 }
 
-.second a:last-child {
+.second ul li:last-child {
   border: none;
 }
 
-.second a:hover {
-  color: red;
-  transition: 0.3s;
+.third ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.third ul li {
+  margin: 0 0 0 10px;
+  padding: 0 15px 0 0;
+  background: url(../img/line.png) no-repeat right;
+  list-style: none;
+}
+
+.third ul li:last-child {
+  background: none;
+}
+
+.fourth ul {
+  margin: 0;
+  padding: 0;
+}
+
+.fourth ul li {
+  margin: 0 0 0 0;
+  padding: 0 10px;
+  display: inline;
+  list-style: none;
+  border-left: 2px solid red;
+}
+
+.fourth ul li:first-child {
+  border: none;
+}
+
+.fifth ul {
+  margin: 0;
+  padding: 0;
+}
+
+.fifth ul li {
+  margin: 0;
+  padding-left: 5px;
+  float: left;
+  list-style: none;
+}
+
+.fifth a:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+  width: 2px;
+  height: 20px;
+  background-color: red;
+}
+
+.fifth ul > li:first-child a:before {
+  display: none;
 }
