@@ -1,4 +1,5 @@
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -13,11 +14,13 @@ body {
 }
 
 .content {
-  display: flex;
-  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: #f0e78d;
 }
 
 .content__left {
+  float: left;
   padding: 0 10px;
   min-width: 160px;
   background-color: #f0e78d;
@@ -33,11 +36,13 @@ body {
 }
 
 .content__right {
+  overflow: hidden;
   background-image: url(../img/ball.png);
   background-size: 100px;
   background-position: top right;
   background-repeat: repeat-y;
   padding: 0 20px;
+  background-color: #fff;
 }
 
 .content__right h2 {
@@ -48,4 +53,8 @@ body {
 .content__right img {
   margin: 0 15px 15px 0;
   float: left;
+}
+
+.clear {
+  clear: both;
 }
