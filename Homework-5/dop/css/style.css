@@ -5,15 +5,14 @@ body, p {
 }
 
 .content {
-  position: relative;
+  background: url(../img/ball3.png) no-repeat bottom left, url(../img/ball3.png) no-repeat bottom left 13.5%, url(../img/ball3.png) no-repeat top left 13.5%, url(../img/ball3.png) no-repeat bottom right 100px, url(../img/ball3.png) no-repeat bottom right, linear-gradient(to right, aqua 50%, blue 50%);
 }
 
 .content__left {
-  position: absolute;
+  float: left;
   width: 20%;
   height: 100%;
-  background: url(../img/ball3.png) no-repeat top left, url(../img/ball3.png) no-repeat top right, url(../img/ball3.png) no-repeat bottom left, url(../img/ball3.png) no-repeat bottom right;
-  background-color: aqua;
+  background: url(../img/ball3.png) no-repeat top left;
 }
 
 .content__left p {
@@ -31,14 +30,13 @@ body, p {
 }
 
 .content__right {
-  position: absolute;
-  right: 0;
+  float: right;
   width: 200px;
   height: 100%;
-  background: url(../img/ball3.png) no-repeat top left, url(../img/ball3.png) no-repeat top right, url(../img/ball3.png) no-repeat bottom left, url(../img/ball3.png) no-repeat bottom right;
-  background-color: purple;
+  background: url(../img/ball3.png) no-repeat top left, url(../img/ball3.png) no-repeat top right;
 }
 
-.content__right p {
+.content__right u
+p {
   padding: 10px 20px;
 }

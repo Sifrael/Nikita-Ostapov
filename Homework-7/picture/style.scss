@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+    font-size: 24px;
+}
+
+td {
+    &:first-child {
+        background-color: gray;
+    }
+    padding: 10px 20px;
+    border:1px solid black;
+}
