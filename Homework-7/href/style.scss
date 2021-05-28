@@ -1,0 +1,35 @@
+
+.name {
+    font-weight: bold;
+    font-size: 24px;
+}
+.date {
+    color: green;
+}
+.winner {
+    color: red;
+}
+.text {
+    font-style: italic;
+    color: blue;
+}
+
+.link {
+    &:before {
+        content: url(../img/extref.png);
+        width: 10px;
+        height: 10px;        
+    }
+    &__print {
+        display: none;
+    }
+}
+
+@media print {
+    .link {
+        display: none;
+    }
+    .link__print {
+        display: block;
+    }
+}

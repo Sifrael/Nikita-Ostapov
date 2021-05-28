@@ -1,0 +1,194 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    color:#0000ff;
+    background-color: #aed9e7;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 20px;    
+}
+
+
+
+.content {
+    margin: 0;
+    padding: 0;
+    background-color: #f0e78d;
+    display: flex;
+    position: relative;
+    &__left {  
+        &-button {
+            display: none;
+        }
+        
+        a {
+            color:blue
+        }        
+        ul {
+            margin: 0;
+            padding: 0 20px;
+        }
+        li {
+            margin: 0 0 10px 0;
+        }
+        max-width: 200px;        
+        background-color: #f0e78d;
+    }
+
+    &__link {
+    }
+
+    &__right { 
+        background-image: url(../img/ball.png);
+        background-size: 100px;
+        background-position: top right;  
+        background-repeat: repeat-y; 
+        padding: 0 20px;        
+        background-color: #fff;
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+        img {
+            margin: 0 15px 15px 0;
+            float: left;
+        }
+    }
+    
+}
+
+
+
+@media (max-width: 768px){
+    .content__left{        
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: -100%;
+        transition-property: left;
+        transition-duration: 1.3s;
+        h3 {
+            margin-top: 50px;
+        }
+        
+    }  
+    .content__left.activ{        
+        left: 0;
+        transition-property: left;
+        transition-duration: 0.5s;
+    }
+    .content__right {
+        transition-property: padding-left;
+        transition-duration: 0.5s;
+    }
+    .content__right.activ {
+        padding-left: 200px;
+        transition-property: padding-left;
+        transition-duration: 0.5s;
+        
+    }
+    .burger {
+        z-index: 2;
+        display: block;
+        position: relative;
+        cursor: pointer;
+        &:after,
+        &::before,
+        span {
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            content: '';
+            background-color: black;
+            width: 30px;
+            height: 2px;
+            
+        }
+        span {
+            transition-property: transform;
+            transition-duration: 0.3s;
+            transition-delay: 0s ;
+        }
+        &:after {
+            top: 12px;
+            left: 10px;
+            transition-duration: 0.3s,0.3s;
+            transition-property: transform,top;
+            transition-delay: 0s,0.3s ;
+            
+
+        }
+        &:before {
+            top: 28px;
+            left: 10px;
+            transition-duration: 0.3s,0.3s;
+            transition-property: transform,top;
+            transition-delay: 0s,0.3s ;
+
+        }
+        
+    }
+
+    .burger.activ {
+        z-index: 2;
+        span {         
+            transform: rotate(-45deg);
+            transition-property: transform;
+            transition-duration: 0.3s;
+            transition-delay: 0.3s ;
+        }
+        &:after {
+            top: 20px;
+            left: 10px;
+            transform: rotate(-45deg);
+            transition-duration: 0.3s,0.3s;
+            transition-property: top,transform;
+            transition-delay: 0s,0.3s ;
+        }
+        &:before {
+            top: 20px;
+            left: 10px;
+            transform: rotate(45deg);
+            transition-duration: 0.3s,0.3s;
+            transition-property: top,transform;
+            transition-delay: 0s,0.3s ;
+        }
+        
+    }
+    
+}
+@media (max-width: 535px) {
+    .title {
+        font-size: 14px;
+    }
+    .content__right {
+        h2 {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 460px) {
+    .content__left{ 
+        min-width: 100%;
+        transition-property: left;
+        transition-duration: 0.5s;
+    }  
+    .content__left.activ{        
+        left: 0;
+        transition-property: left;
+        transition-duration: 0.5s;
+    }
+    .content__right {
+        padding-left: 0
+    }
+    .content__right.activ {
+        padding-left: 0;
+        
+        
+    }
+}
