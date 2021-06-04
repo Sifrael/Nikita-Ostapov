@@ -1,0 +1,53 @@
+.img {
+  width: 10px;
+  height: 430px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.img__bio {
+  position: absolute;
+  top: 20px;
+  left: -170px;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.img__bio:hover {
+  transform: scale(1.2);
+  z-index: 3;
+}
+
+.img__maw {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.img__maw:hover {
+  transform: scale(1.2);
+  z-index: 3;
+}
+
+.img__nos {
+  position: absolute;
+  top: 70px;
+  left: -120px;
+  z-index: 2;
+}
+
+.img__yay {
+  position: absolute;
+  top: 220px;
+  left: -90px;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.img__yay:hover {
+  transform: scale(1.2);
+  z-index: 3;
+}

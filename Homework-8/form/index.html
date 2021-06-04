@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+            <div class="name">
+                <label class="name__label" for="name">Название статьи:</label>
+                <input class="name__input" type="text" id="name">   
+            </div>
+            <div class="clear"></div>
+            <div class="heading">
+                <label class="heading__label" for="sel">Рубрика:</label>
+                <select class="heading__select" name="" id="sel">
+                    <option value="">Программирование</option>
+                    <option value="">Программирование 1</option>
+                </select>
+            </div>
+            <div class="clear"></div>
+            <div class="publication">
+                <label class="publication__label" for="lab">Публикация:</label>
+                <span><input class="publication__input" type="radio" name="lab"> на сайте </span>
+                <span><input class="publication__input" type="radio" name="lab"> в журнале </span>
+                <span><input class="publication__input" type="radio" name="lab"> на сайте и в журнале </span>
+            </div>
+            <div class="checkbox">
+                <label class="checkbox__label" for="box">Разрешить комментарии:</label>
+                <input class="checkbox__input" type="checkbox"> 
+            </div>
+            <div class="text_area">
+                <label class="text_area__label" for="text_area">Текст статьи:</label> <br>
+                <textarea class="text_area__textarea" name="" id="text_area" cols="30" rows="10"></textarea>
+            </div>
+            <button>Опубликовать</button>
+        </form>
+    </div>
+</body>
+</html>

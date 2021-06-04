@@ -1,0 +1,69 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  color: #0000ff;
+  background-color: #aed9e7;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  background-color: #f0e78d;
+}
+
+.content__left {
+  float: left;
+  padding: 0 10px;
+  min-width: 160px;
+  background-color: #f0e78d;
+}
+
+.content__left a {
+  color: blue;
+}
+
+.content__left ul {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.content__right {
+  overflow: hidden;
+  background-image: url(../img/ball.png);
+  background-size: 100px;
+  background-position: top right;
+  background-repeat: repeat-y;
+  padding: 0 20px;
+  background-color: #fff;
+}
+
+.content__right h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content__right img {
+  margin: 0 15px 15px 0;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.fixed {
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: greenyellow;
+  padding: 10px 20px;
+}

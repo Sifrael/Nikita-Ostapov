@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+}
+
+label, input {
+  margin: 5px 0;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.name__label {
+  float: left;
+}
+
+.name__input {
+  display: block;
+  width: 87%;
+  margin-left: 170px;
+}
+
+.heading__label {
+  margin-right: 105px;
+}
+
+.heading__select {
+  width: 20%;
+}
+
+.publication__label {
+  margin-right: 80px;
+}
+
+.text_area {
+  width: 100%;
+}
+
+.text_area__textarea {
+  width: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+@media (max-width: 1300px) {
+  .name__input {
+    width: 86%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .name__input {
+    width: 85%;
+  }
+  .text_area {
+    width: 100%;
+  }
+  .text_area__textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .name__input {
+    width: 84%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .name__input {
+    width: 82%;
+  }
+  .text_area {
+    width: 100%;
+  }
+  .text_area__textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .name__input {
+    width: 79%;
+  }
+}
+
+@media (max-width: 800px) {
+  .name__input {
+    width: 77%;
+  }
+}
+
+@media (max-width: 768px) {
+  .name__label {
+    float: none;
+  }
+  .name__input {
+    width: 100%;
+    margin-left: 0;
+  }
+  .heading__label {
+    display: block;
+    margin-right: 0px;
+  }
+  .heading__select {
+    width: 170px;
+  }
+  .publication__label {
+    display: block;
+    margin-right: 0;
+  }
+  .publication span {
+    display: block;
+  }
+  .text_area {
+    width: 100%;
+  }
+  .text_area__textarea {
+    width: 100%;
+  }
+}
