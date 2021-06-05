@@ -16,6 +16,10 @@ label, input {
   padding: 0 20px;
 }
 
+.name__container {
+  margin-left: 170px;
+}
+
 .name__label {
   float: left;
 }
@@ -43,10 +47,6 @@ label, input {
 
 .clear {
   clear: both;
-}
-
-.name__container {
-  margin-left: 170px;
 }
 
 @media (max-width: 500px) {
