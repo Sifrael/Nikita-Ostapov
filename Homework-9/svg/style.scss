@@ -1,0 +1,18 @@
+.lesv {
+    height: 10px;
+    y:500px;
+    transition: 0.5s;
+}
+
+.lesv.activ {
+    height: 424.43632px;
+    y:55.81068px;
+}
+.button {
+    transition: 0.3s;
+}
+.button:hover {
+    cursor: pointer;
+    stroke:#bf006f;
+    opacity: 0.6;
+}

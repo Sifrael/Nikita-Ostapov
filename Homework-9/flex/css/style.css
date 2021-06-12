@@ -1,0 +1,81 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.377);
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__left {
+  min-width: 200px;
+  background-color: bisque;
+}
+
+.content__left li {
+  margin: 10px 10px;
+}
+
+.content__right {
+  padding-left: 30px;
+  background: url(../img/ball.png) right repeat-y;
+  background-size: 100px;
+}
+
+.content__right img {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.content__right h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 500px) {
+  .title {
+    display: none;
+  }
+  .content {
+    flex-direction: column-reverse;
+    padding: 0 20px;
+  }
+  .content__left {
+    min-width: 200px;
+    background-color: #fff;
+  }
+  .content__left li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+  }
+  .content__right {
+    padding-left: 0;
+    background: url(../img/ball.png) right repeat-y;
+    background-size: 100px;
+  }
+  .content__right img {
+    float: none;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .content__right h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

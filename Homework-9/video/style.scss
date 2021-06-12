@@ -1,0 +1,13 @@
+.contaicner {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: auto;
+    a {
+        display: block;
+        margin: 10px 10px;
+    }
+    iframe {
+        padding: 0 10px;
+    }
+}
