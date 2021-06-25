@@ -7,13 +7,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
-html,head {
-    margin: 0;
-    padding: 0;
-}
+
 .container {
-    max-width: 1140px;
-    width: 100%;
+    max-width: 1140px;    
     padding: 0 2px;
     margin: 0 auto;
 }
@@ -28,7 +24,8 @@ a,ul,li {
 .clear {
     clear: both;
 }
-.header {    
+.header {  
+    position: relative; 
     vertical-align: middle;
     background-color: #F3F3F3;
     padding: 32px 0 79px 0;
@@ -38,6 +35,7 @@ a,ul,li {
 
     &__contact {
         float: right;
+        
         a {
             display: inline-block;
             margin: 0 0 0 20px;
@@ -97,6 +95,7 @@ a,ul,li {
 
 
 }
+
 .categories {
     a {
         display: inline-block;
@@ -320,7 +319,7 @@ hr {
         input {
             margin: 0 0 50px 0;
             background-color: #8D8694;
-            width: 312px;
+            min-width: 300px;
             height: 40px;
             border:none;
             color:#fff;
@@ -447,12 +446,13 @@ hr {
 
     .container {
         max-width: 750px;
+        text-align: center;
     }
     .footer__contact {
         margin: 0 0 0 0;
     }
     .product__item {
-        margin: 0 50px;
+        margin: 0;
     }
     .footer__help {
         text-align: right;
@@ -540,10 +540,12 @@ hr {
             display: none;
         }
 
-    }
+    }    
+    
 }
 @media all and (max-width:650px) {   
     .product {
+        
         text-align: center;
     }
     .header {
@@ -589,6 +591,7 @@ hr {
     }
     .title {
         text-align: center;
+        margin: 25px 0 20px 0;
     }
     .slider__item  {
         img {

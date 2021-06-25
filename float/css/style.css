@@ -7,14 +7,8 @@ body {
   font-size: 14px;
 }
 
-html, head {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   max-width: 1140px;
-  width: 100%;
   padding: 0 2px;
   margin: 0 auto;
 }
@@ -33,6 +27,7 @@ a, ul, li {
 }
 
 .header {
+  position: relative;
   vertical-align: middle;
   background-color: #F3F3F3;
   padding: 32px 0 79px 0;
@@ -337,7 +332,7 @@ hr {
 .footer__contact input {
   margin: 0 0 50px 0;
   background-color: #8D8694;
-  width: 312px;
+  min-width: 300px;
   height: 40px;
   border: none;
   color: #fff;
@@ -467,12 +462,13 @@ hr {
 @media all and (max-width: 992px) {
   .container {
     max-width: 750px;
+    text-align: center;
   }
   .footer__contact {
     margin: 0 0 0 0;
   }
   .product__item {
-    margin: 0 50px;
+    margin: 0;
   }
   .footer__help {
     text-align: right;
@@ -604,6 +600,7 @@ hr {
   }
   .title {
     text-align: center;
+    margin: 25px 0 20px 0;
   }
   .slider__item img {
     width: 100%;

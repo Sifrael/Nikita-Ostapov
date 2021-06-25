@@ -32,7 +32,7 @@ table td {
 .Homework__number:before, .Homework__number:after {
   content: '';
   display: block;
-  width: 16px;
+  width: 17px;
   height: 3px;
   background-color: #000;
 }

@@ -43,7 +43,6 @@ $(document).ready(function(){
     });
     $('.footer__services-title').click(function(){
         $(this).toggleClass('activ').next().slideToggle(300) ;       
-    });
-      
+    });      
 });
     
