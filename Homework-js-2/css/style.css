@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container button {
+  margin: 20px 10px;
+  width: 300px;
+  padding: 20px 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.container button:hover {
+  box-shadow: -2px -2px 5px black;
+}
+
+.container .AddList {
+  background-color: #00d40b;
+}
+
+.container .InfoList {
+  background-color: #2424e0;
+}
+
+.container .ShowList {
+  background-color: #e2e621;
+}
+
+.container .RemoveList {
+  background-color: #ee0063;
+}
