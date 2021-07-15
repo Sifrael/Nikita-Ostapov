@@ -1,0 +1,344 @@
+@import url(../fonts/stylesheet.css);
+@import url(header__footer.css);
+@import url(reset_styles.css);
+body {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__contact {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+}
+
+.content__contact span {
+  font-weight: bold;
+}
+
+.content__map {
+  margin: 0 0 0 34px;
+  flex: 1 0 auto;
+}
+
+.content__map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact__title h1 {
+  margin: 63px 0 0 0;
+  text-transform: uppercase;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 300;
+  color: #C4C4C4;
+}
+
+.contact__title h1 span {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact__address {
+  margin: 34px 0 0 0;
+}
+
+.contact__phone {
+  margin: 43px 0 0 0;
+}
+
+.contact__phone a {
+  font-weight: bold;
+}
+
+.contact__phone a:hover {
+  text-decoration: underline;
+}
+
+.contact__mail {
+  margin: 52px 0 0 0;
+}
+
+.contact__mail a:hover {
+  text-decoration: underline;
+}
+
+.contact__button {
+  margin: 34px 0 0 0;
+}
+
+.contact__button button {
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 30px 43px;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact__button button:hover {
+  box-shadow: -2px -2px 5px #333;
+  transition: 0.3s;
+}
+
+.popup {
+  transition: 0.5s;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1003;
+}
+
+.popup__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.popup__content {
+  position: relative;
+  text-align: center;
+  max-width: 470px;
+  background-color: #fff;
+}
+
+.popup__content-close {
+  cursor: pointer;
+}
+
+.popup__content-close:hover {
+  transition: 0.3s;
+}
+
+.popup__content-close:hover:before, .popup__content-close:hover::after {
+  height: 3px;
+}
+
+.popup__content-close:before, .popup__content-close::after {
+  position: absolute;
+  right: 39px;
+  top: 32px;
+  display: block;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background-color: #C1C1C1;
+}
+
+.popup__content-close::after {
+  transform: rotate(45deg);
+}
+
+.popup__content-close::before {
+  transform: rotate(-45deg);
+}
+
+.popup__title {
+  margin: 26px 0 0 0;
+}
+
+.popup__title h3 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.popup__form {
+  margin: 25px 39px;
+}
+
+.contact__form-text {
+  width: 100%;
+  height: 45px;
+  background-color: #F3F3F3;
+  border: none;
+  margin: 0 0 10px 0;
+  padding: 15px 0 15px 20px;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.contact__agreement {
+  display: flex;
+  margin: 15px 0 25px 0;
+  align-items: center;
+}
+
+.contact__agreement input {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.contact__agreement input :checked {
+  background-color: #F3F3F3;
+}
+
+.contact__agreement p {
+  text-align: start;
+  margin: 0 0 0 16px;
+  font-size: 14px;
+}
+
+.contact__form-button button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 0;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.contact__form-button button:hover {
+  box-shadow: -2px -2px 5px #333;
+}
+
+.form-message {
+  min-height: 133px;
+  padding: 15px 0 0 20px;
+}
+
+.popup__thanks {
+  z-index: 1003;
+  transition: 1s;
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.popup__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.popup__thanks-content {
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.popup__thanks-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 26px;
+  margin: 24px 0 0 0;
+}
+
+.popup__thanks-content p {
+  margin: 26px 0 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #4f4f4f;
+}
+
+.popup__thanks-content img {
+  margin: 43px 0 0 0;
+  width: 142px;
+}
+
+.button__close {
+  margin: 41px 0 23px 0;
+}
+
+.button__close button {
+  cursor: pointer;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.button__close button:hover {
+  box-shadow: -2px -2px 5px #333;
+}
+
+.popup.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup__thanks.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media all and (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .container {
+    max-width: 900px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content__map {
+    margin: 30px 0 0 0;
+    flex: 0 0 auto;
+  }
+  .content__map iframe {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    max-width: none;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .contact__title h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .content__map iframe {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .contact__title h1 {
+    font-size: 38px;
+    line-height: 38px;
+  }
+}
