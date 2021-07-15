@@ -29,7 +29,8 @@ $(document).ready(function(){
     }) 
 
     var slideQuantity = $('.certificates__slider-item').length;  
-    $('.nav__number-quantity').html('0' + Math.floor(slideQuantity / 2.6));
+    $('.nav__number-quantity').html('0' + Math.ceil(slideQuantity / 3));
 
+    
     
 });
