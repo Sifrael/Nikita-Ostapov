@@ -112,6 +112,7 @@ body {
 }
 
 .popup__content {
+  overflow: hidden;
   position: relative;
   text-align: center;
   max-width: 470px;
@@ -220,6 +221,7 @@ body {
 }
 
 .popup__thanks {
+  overflow: hidden;
   z-index: 1003;
   transition: 1s;
   opacity: 0;
@@ -340,5 +342,15 @@ body {
   .contact__title h1 {
     font-size: 38px;
     line-height: 38px;
+  }
+  .popup__form {
+    margin: 10px;
+  }
+  .contact__form-text {
+    height: 30px;
+    width: 80%;
+  }
+  .form-message {
+    min-height: 80px;
   }
 }

@@ -6,7 +6,7 @@
 
 
 body {
-    position: relative;  
+    position: relative;
 }
 
 .content {
@@ -124,6 +124,7 @@ body {
     }
       
     &__content {
+        overflow: hidden;
         position: relative;
         &-close {
             cursor: pointer;            
@@ -239,6 +240,7 @@ body {
     
 
     &__thanks {
+        overflow: hidden;
         z-index: 1003;
         transition: 1s;
         opacity: 0;
@@ -382,6 +384,17 @@ body {
             font-size: 38px;
             line-height: 38px;            
         }
+    }
+
+    .popup__form {
+        margin: 10px;        
+    }
+    .contact__form-text {
+        height: 30px;
+        width: 80%;
+    }
+    .form-message {
+        min-height: 80px;
     }
         
 }
