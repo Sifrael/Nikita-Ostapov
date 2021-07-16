@@ -529,6 +529,8 @@ a {
   text-align: center;
   position: relative;
   padding: 0 20px;
+  transform: rotateY(180deg);
+  transition: all 0.8s ease 0s;
 }
 
 .popup__thanks-content h3 {
@@ -573,6 +575,11 @@ a {
 .popup__thanks.show {
   opacity: 1;
   visibility: visible;
+}
+
+.popup__thanks.show .popup__thanks-content {
+  transform: rotateZ(0deg);
+  transform: rotateY(0deg);
 }
 
 @media all and (max-width: 1200px) {
