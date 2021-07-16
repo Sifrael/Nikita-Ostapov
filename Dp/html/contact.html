@@ -28,7 +28,8 @@
             </div>
             </header>
     
-            <div class="main">  
+            <div class="main"> 
+                 
                 <div class="container content">
                     <div class="content__contact">
                         <div class="contact__title">
@@ -41,47 +42,48 @@
                     </div>
                     <div class="content__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.98445101748!2d73.08341361512797!3d49.82395744018887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424346c3b32ffcaf%3A0x41481e634d919f9e!2z0YPQuy4g0KLQtdC70LXQstC40LfQuNC-0L3QvdCw0Y8gMTAsINCa0LDRgNCw0LPQsNC90LTQsCAxMDAwMDAsINCa0LDQt9Cw0YXRgdGC0LDQvQ!5e0!3m2!1sru!2sby!4v1626342528515!5m2!1sru!2sby"  style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
                 </div>
+                <div class="popup">   
+                    <div class="popup__body">
+                        <div class="popup__content">
+                            <div class="popup__title">
+                                <h3>Задать вопрос</h3>
+                            </div>
+                            <div class="popup__form">                        
+                                <form action="#" method="GET" class="contact__form" onsubmit="return false;">
+                                    <ul>
+                                      <li><input class="contact__form-text" type="text" name="name" placeholder="Имя "></li>
+                                      <li><input class="contact__form-text" type="tel" name="tel" placeholder="Номер телефона*" required></li>
+                                      <li><input class="contact__form-text" type="text" name="mail" placeholder="E-mail*" required></li>
+                                      <li><input class="contact__form-text" type="text" name="by" placeholder="Интересующий товар/услуга"></li>
+                                      <li><textarea class="contact__form-text form-message" name="message" placeholder="Сообщение*" required></textarea></li>
+                                    </ul>
+                                    <div class="contact__agreement">                            
+                                        <input id="contact__checkbox" type="checkbox" checked>
+                                        <p class="contact__form-paragrapf">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
+                                    </div>                         
+                                    <div class="contact__form-button"><button id="contact__button" type="submit" >Отправить</button></div> 
+                                </form>
+                            </div>
+                            <div class="popup__content-close"></div>                                       
+                        </div>
+                    </div>  
+                    
+                </div>    
+                <div class="popup__thanks">   
+                    <div class="popup__body">
+                        <div class="popup__thanks-content">
+                            <div class="popup__content-close"></div> 
+                            <img src="../img/contact/thanks.png" alt="thanks"> 
+                            <h3>Спасибо !</h3>    
+                            <p>Ваше сообщение отправлено мы свяжемся с вами в ближайшее время</p>   
+                            <div class="button__close"><button class="button__close-btn">вернуться назад</button></div>                                                     
+                        </div>
+                    </div> 
+                </div>
+
             </div>
 
-            <div class="popup">   
-                <div class="popup__body">
-                    <div class="popup__content">
-                        <div class="popup__title">
-                            <h3>Задать вопрос</h3>
-                        </div>
-                        <div class="popup__form">                        
-                            <form action="#" method="GET" class="contact__form" onsubmit="return false;">
-                                <ul>
-                                  <li><input class="contact__form-text" type="text" name="name" placeholder="Имя "></li>
-                                  <li><input class="contact__form-text" type="tel" name="tel" placeholder="Номер телефона*" required></li>
-                                  <li><input class="contact__form-text" type="text" name="mail" placeholder="E-mail*" required></li>
-                                  <li><input class="contact__form-text" type="text" name="by" placeholder="Интересующий товар/услуга"></li>
-                                  <li><textarea class="contact__form-text form-message" name="message" placeholder="Сообщение*" required></textarea></li>
-                                </ul>
-                                <div class="contact__agreement">                            
-                                    <input id="contact__checkbox" type="checkbox" checked>
-                                    <p class="contact__form-paragrapf">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
-                                </div>                         
-                                <div class="contact__form-button"><button id="contact__button" type="submit" >Отправить</button></div> 
-                            </form>
-                        </div>
-                        <div class="popup__content-close"></div>                                       
-                    </div>
-                </div>  
-                
-            </div>
-
-            <div class="popup__thanks">   
-                <div class="popup__body">
-                    <div class="popup__thanks-content">
-                        <div class="popup__content-close"></div> 
-                        <img src="../img/contact/thanks.png" alt="thanks"> 
-                        <h3>Спасибо !</h3>    
-                        <p>Ваше сообщение отправлено мы свяжемся с вами в ближайшее время</p>   
-                        <div class="button__close"><button class="button__close-btn">вернуться назад</button></div>                                                     
-                    </div>
-                </div> 
-            </div>
+            
     
             <footer class="footer">
             <div class="container footer">

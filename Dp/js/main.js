@@ -32,7 +32,30 @@ $(document).ready(function(){
   checkBox.addEventListener('change', () => {
   button.disabled = !button.disabled;
   }) 
-    
+
+
+  $(".contact__form").submit(function() {
+    $( ".popup__thanks" ).addClass('show');       
+  }); 
+
+  $( ".button__close-btn").click(function() {
+    $( ".popup__thanks" ).removeClass('show'); 
+  });
+  
+
+  $(document).mouseup(function (e){ 
+    var div = $(".popup__thanks-content"); 
+    if (!div.is(e.target) 
+        && div.has(e.target).length === 0) { 
+          $( ".popup__thanks" ).removeClass('show');       
+          
+    }
+  });
+  
+  
+  $( ".popup__content-close").click(function() {    
+    $( ".popup__thanks" ).removeClass('show');
+  });
 
 });
 

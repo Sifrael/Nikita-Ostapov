@@ -32,5 +32,8 @@ $(document).ready(function(){
     $('.nav__number-quantity').html('0' + Math.ceil(slideQuantity / 3));
 
     
+      
+    
+       
     
 });
